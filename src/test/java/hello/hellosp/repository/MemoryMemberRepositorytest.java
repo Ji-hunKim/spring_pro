@@ -15,6 +15,7 @@ class MemoryMemberRepositoryTest {
     repository.clearStore();
   }
 
+
   @Test
   public void save() {   // test로 메서드 실행됨
     Member member = new Member();  // 메인 메서드 세팅해주는거랑 비슷

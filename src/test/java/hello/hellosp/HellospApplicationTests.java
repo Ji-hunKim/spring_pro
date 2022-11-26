@@ -9,5 +9,4 @@ class HellospApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

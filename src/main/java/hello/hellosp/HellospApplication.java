@@ -8,5 +8,4 @@ public class HellospApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HellospApplication.class, args);
 	}
-
 }

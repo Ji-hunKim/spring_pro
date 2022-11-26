@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-
 public class HelloController {
   @GetMapping("hello")  // 웹 어플리케이션에서 /hello라고 들어오면 HelloController 메서드 호출
   public String hello(Model model) {   // Model View Controller (MVC)
