@@ -10,6 +10,7 @@ import java.util.List;
 class MemoryMemberRepositoryTest {
   MemoryMemberRepository repository = new MemoryMemberRepository();
 
+
   @AfterEach // 메서드 실행 끝날때마다 동작 (콜백 메서드)
   public void afterEach() {
     repository.clearStore();
